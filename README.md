@@ -1,14 +1,15 @@
 # draft
 draft code that does not has clear purposes
 
-<h3>#xgboost.cv can choose the best number of tree using cross validation </h3>
+## xgboost.cv can choose the best number of tree using cross validation
+some codes:
 ```
 xgboost.cv(params, dtrain, num_boost_round=10, nfold=3, stratified=False, folds=None, metrics=(), obj=None,
            feval=None, maximize=False, early_stopping_rounds=None, fpreproc=None, as_pandas=True, verbose_eval=None,
            show_stdv=True, seed=0, callbacks=None, shuffle=True)
 ```
 
-<h4>##customer metrics </h4>
+#### customer metrics
 ```
 def my_recall(preds,dtrain):#preds传入的为预测概率值<br>
     labels=dtrain.get_label()

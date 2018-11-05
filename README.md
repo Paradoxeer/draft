@@ -1,7 +1,7 @@
 # draft
 draft code that does not has clear purposes
 
-## xgboost.cv can choose the best number of tree using cross validation
+##xgboost.cv can choose the best number of tree using cross validation
 some codes:
 ```
 xgboost.cv(params, dtrain, num_boost_round=10, nfold=3, stratified=False, folds=None, metrics=(), obj=None,
